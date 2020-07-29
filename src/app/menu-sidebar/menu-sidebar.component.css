@@ -1,0 +1,28 @@
+.img-perfil img{
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+
+.nome-usuario span{
+  font-weight: 700;
+}
+
+.sidebar ul{
+  display: block;
+  margin-top: 20px;
+}
+
+.sidebar ul li{
+  background: #eaeaea;
+  padding: 10px 15px; 
+  border: 1px solid gainsboro;
+}
+
+.sidebar ul li:hover{
+  background-color: #f7f7f7;
+}
+
+.sidebar ul li a:hover{
+  text-decoration: none;
+}
