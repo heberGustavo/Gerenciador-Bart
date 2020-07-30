@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from "@angular/forms";
+import { DataTablesModule } from 'angular-datatables';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -35,6 +36,7 @@ import { CriarProdutoComponent } from './produto/criar-produto/criar-produto.com
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    DataTablesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
